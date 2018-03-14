@@ -16,12 +16,14 @@
 	<!-- Load fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	
+<!--  Лучше шрифты подключать через CSS @font-face	 -->
 
 	<!--Load styles -->
-	<link rel="stylesheet" type="text/css" href="http://kosmetologist.com/wp-content/themes/Kosmo/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="http://kosmetologist.com/wp-content/themes/Kosmo/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="http://kosmetologist.com/wp-content/themes/Kosmo/css/magnific-popup.css">
-	<link rel="stylesheet" type="text/css" href="http://kosmetologist.com/wp-content/themes/Kosmo/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Kosmo/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Kosmo/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Kosmo/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Kosmo/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url')?>">
     <?php wp_head();?>
     
@@ -43,12 +45,12 @@
 				</div>
 				<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a data-scroll href="index.html#home">Главная</a></li>
-						<li><a data-scroll href="index.html#services">Услуги</a></li>
-						<li><a data-scroll href="index.html#portfolio">Наши работы</a></li>
-						<li><a data-scroll href="index.html#about">О нас</a></li>
-						<li><a data-scroll href="index.html#blog">Отзывы</a></li>
-						<li><a data-scroll href="index.html#contact">Контакты</a></li>
+						<li><a data-scroll href="#home">Главная</a></li>
+						<li><a data-scroll href="#services">Услуги</a></li>
+						<li><a data-scroll href="#portfolio">Наши работы</a></li>
+						<li><a data-scroll href="#about">О нас</a></li>
+						<li><a data-scroll href="#blog">Отзывы</a></li>
+						<li><a data-scroll href="#contact">Контакты</a></li>
 					</ul>
 				</div>
 			</div>
